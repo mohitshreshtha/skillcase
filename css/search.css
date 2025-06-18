@@ -1,0 +1,43 @@
+
+/* .searchcontainer{
+
+} */
+.card-title svg {
+fill: #EDB84333;
+}
+.jobheading{
+        display: flex;
+    justify-content: space-between;
+}
+.ptag {
+    margin:1px;
+    font-size:20px;
+    margin: auto 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.jobdetails{
+    justify-content: space-between;
+}
+.submenu{
+ background: #0000000A;
+ border-radius: 20px;
+ width:fit-content;
+ padding:5px 20px;
+ font-size:14px;
+     margin: auto 5px;
+}
+.submenu.active{
+    background: #CEFAE0;
+}
+
+.submenuadditional{
+    display: flex;
+}
+.applynow{
+    background-color:#083262;
+    border-radius: 4px;
+    color:white;
+    padding:6px 32px;
+    float:right
+}
