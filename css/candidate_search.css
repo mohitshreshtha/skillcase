@@ -1,9 +1,11 @@
 
-/* .searchcontainer{
-
-} */
 .card-title svg {
 fill: #EDB84333;
+}
+.candidatename{
+    font-size:22px;
+    font-weight:400;
+    margin-left:20px;
 }
 .jobheading{
         display: flex;
@@ -17,6 +19,7 @@ fill: #EDB84333;
     border-radius: 5px;
 }
 .jobdetails{
+    display: flex;
     justify-content: space-between;
 }
 .submenu{
@@ -43,15 +46,85 @@ fill: #EDB84333;
 }
 
 .candidateImg{
-    width:48px;
-    width:48px;
+    width:70px;
+    margin-left:10px;
     border-radius:8px
 }
 .selectcandidatebtn{
- background-color:#083262;
+    background-color:#083262;
     border-radius: 4px;
     color:white;
     padding:6px 32px;
     float:right;
     text-decoration: none;
+}
+.mobile-view{
+    display:none;
+}
+.desktop-view{
+    display:block
+}
+.candidatename{
+   
+}
+.candidatelabel{
+    font-size:18px;
+    font-weight: 300;
+}
+.candidatedata{
+    font-weight:600;
+    font-size:18px
+}
+
+@media screen and (max-width: 576px) {
+    .mobile-view{
+    display:block;
+    }
+    .desktop-view{
+    display:none;
+    }
+    .selectcandidatebtn{
+    text-decoration: none;
+    width:100%;
+     margin-top:10px;
+}
+.card-body{
+    padding:10px
+}
+.candidatename{
+    font-size:18px;
+    margin-left:10px
+
+}
+.candidatelabel{
+     font-size:12px;
+}
+.candidatedata{
+    font-size:12px;
+}
+}
+ @media screen and (min-width: 576px)and (max-width: 768px) {
+    .mobile-view{
+    display:block;
+    }
+    .desktop-view{
+    display:none;
+    } 
+     .selectcandidatebtn{
+    text-decoration: none;
+    width:100%;
+    margin-top:10px;
+    }
+ }
+@media screen and (min-width: 768px)and (max-width: 1020px) {
+
+.selectcandidatebtn {
+    background-color: #083262;
+    border-radius: 4px;
+    color: white;
+    padding: 6px 12px;
+    float: right;
+    font-size: 18px;
+    text-decoration: none;
+}
 }

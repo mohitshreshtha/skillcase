@@ -1,7 +1,7 @@
-  <nav class="navbar navbar-expand-lg ">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-         <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 338 49" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338 49" height="49" width="338" data-type="color" role="presentation" aria-hidden="true" aria-label="">
+<nav class="navbar navbar-light  navbar-expand-lg fixed-top">
+    <div class="container">
+                    <a href="index.php" class="navbar-brand"> 
+                        <svg preserveAspectRatio="xMidYMid meet" data-bbox="0 0 338 49" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338 49" height="50" width="200" data-type="color" role="presentation" aria-hidden="true" aria-label="">
                             <g>
                             <path fill="#083262" d="M16.842 49q-4.792 0-8.626-1.636-3.835-1.703-6.025-4.77T0 35.438h8.353q.273 3.068 2.396 5.043 2.19 1.977 6.093 1.977 4.04 0 6.299-1.909 2.259-1.976 2.259-5.043 0-2.385-1.438-3.884-1.369-1.5-3.491-2.317-2.055-.819-5.751-1.772-4.656-1.227-7.6-2.454-2.875-1.294-4.93-3.952Q.139 18.469.138 14.039q0-4.089 2.054-7.156 2.055-3.067 5.75-4.702Q11.64.546 16.5.545q6.915 0 11.296 3.476 4.45 3.407 4.93 9.405h-8.627q-.205-2.59-2.465-4.43t-5.956-1.84q-3.354 0-5.477 1.704-2.122 1.703-2.122 4.906 0 2.181 1.3 3.612 1.37 1.363 3.424 2.181t5.614 1.772q4.724 1.295 7.668 2.59 3.012 1.295 5.066 4.02 2.122 2.66 2.122 7.156 0 3.612-1.985 6.815-1.917 3.203-5.683 5.18Q21.91 49 16.842 49" data-color="1"></path>
                             <path fill="#083262" d="M68.704 48.523 50.288 27.328v21.195h-7.805V1.159h7.805v21.603L68.773 1.16h9.79L57.887 24.875l21.018 23.648z" data-color="1"></path>
@@ -14,28 +14,21 @@
                             <path fill="#EDB843" d="M320.268 10.018v9.677h15.678v8.996h-15.678v10.495H338v9.337h-29.439V.682H338v9.336z" data-color="2"></path>
                             </g>
                         </svg>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <!-- <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li> -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Podcast</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
-            <button type="button" class="btn sectionbtn">Get Started</button>
-      </span>
-    </div>
-  </div>
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                <li class="navbar-item"><a href="#" class="nav-link">Blog</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">Podcast</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">About us</a></li>
+                <li class="navbar-item  mobile-view"><a href="#" class="nav-link sectionbtn">Get Started</a></li>
+            </ul>
+            <div class='justify-content-end'>
+              <button type="button" class="btn sectionbtn desktop-view">Get Started</button>
+            </div>
+        </div> <!-- navbarCollapse -->
+        
+    </div> <!-- wrapper -->
 </nav>

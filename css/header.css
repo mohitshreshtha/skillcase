@@ -1,0 +1,27 @@
+.navbar-brand svg{
+        width:190px;
+        height:27px;
+        /* margin-left:100px */
+        
+        }
+        nav .btn{
+        width:165px;
+        height:48px;
+        border-radius:12px;
+        padding:12px 36px;
+        text-wrap: nowrap;
+        font-weight: 600;
+        background-color: var(--yellow-anchor);
+    }
+
+    @media screen and (max-width: 576px) {
+        p{
+            text-align: justify;
+        }
+        .navbar-brand svg {
+        width: 140px;
+        }
+        nav {
+        height: 70px;
+        }
+    }

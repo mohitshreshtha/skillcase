@@ -2,6 +2,7 @@
 /* .searchcontainer{
 
 } */
+
 .card-title svg {
 fill: #EDB84333;
 }
@@ -39,5 +40,111 @@ fill: #EDB84333;
     border-radius: 4px;
     color:white;
     padding:6px 32px;
+    float:right;
+    transition: transform .5s; 
+}
+.applynow:hover{
+    background-color:#083262e0;
+     color:white;
+     transform: scale(1.1); 
+}
+
+.searchtitle{
+    font-size:22px;
+    font-weight:400
+}
+.location{
+    background-color:#F5F5F5;
+    width:fit-content;
+    min-width:200px;
     float:right
+}
+.jobtitle{
+    font-size:18px;
+    font-weight: 300;
+}
+.jobdesc{
+    font-weight:600;
+    font-size:18px
+}
+
+    section h4{
+        font-size:28px;
+    }
+
+@media screen and (max-width: 576px) {
+        .ptag {
+        font-size: 0.8rem;
+        margin: 0px 0;
+    }
+        section {
+        padding: 40px 0px;
+    }
+    section h4{
+        font-size:18px;
+    }
+    .jobleftside{
+        margin-bottom:10px
+    }
+    .searchtitle{
+        font-size:1rem;
+        font-weight:400
+    }
+    .card-body{
+        padding:10px
+    }
+    .location{
+        background-color:#F5F5F5;
+        width:fit-content;
+        min-width:200px;
+        float:left
+    }
+
+    .jobtitle{
+        font-size:16px;
+        font-weight: 300;
+    }
+    .jobdesc{
+        font-weight:600;
+        font-size:14px
+    }
+    .submenu {
+        background: #0000000A;
+        border-radius: 20px;
+        width: fit-content;
+        padding: 4px 11px;
+        font-size: 11px;
+        margin: 2px 0px 10px 4px;
+    }
+    .applynow {
+        padding: 4px 40px
+    }
+ }
+ @media screen and (min-width: 576px)and (max-width: 768px) {
+.searchtitle {
+    font-size: 18px;
+}
+.ptag {
+    margin: 1px;
+    font-size: 14px;
+}
+.jobtitle {
+    font-size: 14px;
+    font-weight: 300;
+}
+.jobdesc {
+    font-weight: 600;
+    font-size: 14px;
+}
+ }
+
+@media screen and (min-width: 768px)and (max-width: 1020px) {
+ .submenu {
+    background: #0000000A;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 3px 10px;
+    font-size: 13px;
+    margin: auto 5px;
+}
 }

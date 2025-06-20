@@ -18,114 +18,121 @@
     <body>
      <?php  include 'header.php';?>
     <section>
-        <div class='container'>
+        <div class='container firstsection'>
             <div class='row justify-content-md-center'>
-                <div class='col-md-11'>
+                <div class='col-md-11 mt-3'>
                     <h4>120 candidates match your requirement </h4>
                 </div>
-                <div class='col-md-10 searchcontainer mt-5' >
+               
+                    <div class='col-md-10 searchcontainer mt-3' >
                     <div class="card">
                     <div class="card-body">
                             <div class='row jobheading'>
-                                <div class='col-md-4'>
+                                <div class='col-md-6'>
                                    <img src="img/candidate1.jpg" alt="" class='candidateImg'>
-                                    <span style='font-size:22px;font-weight:400;margin-left:40px'>Priya Sharma</span>
+                                    <span  class='candidatename'>Priya Sharma</span>
                                 </div>
                                 <div class='col-md-5'>
                                         <p style='width:fit-content;min-width:200px;float:right' class='ptag location'>
-                                        <a href='' class='selectcandidatebtn'>Select Candidate</a>
+                                        <a href='' class='selectcandidatebtn desktop-view'>Select Candidate</a>
 
                                     </p>
                                 </div>
                             </div>
                             <div class='container'>
-                            <div class=' row jobdetails mt-4'>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>Degree</h6>
-                                    <h5 class='' style='font-weight:600;font-size:18px'>B.Sc Nursing</h5>
-                                </div>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>Experience</h6>
-                                    <h5 style='font-weight:600;font-size:18px'>4 Years</h5>
-                                </div>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>German Language</h6>
-                                    <h5 style='font-weight:600;font-size:18px'>B2 Completed</h5>
-                                    
+                                <div class=' row  mt-4'>
+                                    <div class='col-xl-12'>
+                                        <div class=' jobdetails'>
+                                        <div class='col-xl-3 col-md-4 col-4'>
+                                            <h6 class='candidatelabel'>Degree</h6>
+                                            <h5 class='candidatedata'>B.Sc Nursing</h5>
+                                        </div>
+                                        <div class='col-xl-3 col-md-4 col-4'>
+                                            <h6 class='candidatelabel'>Experience</h6>
+                                            <h5 class='candidatedata'>4 Years</h5>
+                                        </div>
+                                        <div class='col-xl-3 col-md-4 col-4'>
+                                            <h6 class='candidatelabel'>German Language</h6>
+                                            <h5 class='candidatedata'>B2 Completed</h5>
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class='col-xl-12'>
+                                        <div class='jobdetails mt-3'>
+                                            <div class='col-xl-3 col-md-4 col-4' >
+                                            <h6 class='candidatelabel'>Specialization</h6>
+                                            <h5 class='candidatedata'>Critical Care</h5>
+                                            </div>
+                                            <div class='col-xl-3 col-md-4 col-4'>
+                                                <h6 class='candidatelabel'>Location</h6>
+                                                <h5 class='candidatedata'>Delhi</h5>
+                                            </div>
+                                            <div class='col-xl-3 col-md-4 col-4'>
+                                            <h6 class='candidatelabel'>Availability</h6>
+                                            <h5 class='candidatedata'>Aug 2025</h5>
+                                            </div>
+                                        </div>
+                                    </div>                    
                                 </div>
                             </div>
-                            </div>
-                            <div class='container'>
-                            <div class=' row jobdetails mt-4'>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>Specialization</h6>
-                                    <h5 class='' style='font-weight:600;font-size:18px'>Critical Care</h5>
-                                </div>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>Location</h6>
-                                    <h5 style='font-weight:600;font-size:18px'>Delhi</h5>
-                                </div>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>Availability</h6>
-                                    <h5 style='font-weight:600;font-size:18px'>Aug 2025</h5>
-                                    
-                                </div>
-                            </div>
-                            </div>
-        
+                            <a href='' class='selectcandidatebtn mobile-view' style='text-align:center'>Select Candidate</a>
                     </div>
                     </div>
-                    </div>
-                    <div class='col-md-10 searchcontainer mt-5' >
+</div>
+                    <div class='col-md-10 searchcontainer mt-3' >
                     <div class="card">
                     <div class="card-body">
                             <div class='row jobheading'>
-                                <div class='col-md-4'>
+                                <div class='col-md-6'>
                                    <img src="img/candidate1.jpg" alt="" class='candidateImg'>
-                                    <span style='font-size:22px;font-weight:400;margin-left:40px'>Priya Sharma</span>
+                                    <span class='candidatename' >Priya Sharma</span>
                                 </div>
                                 <div class='col-md-5'>
                                         <p style='width:fit-content;min-width:200px;float:right' class='ptag location'>
-                                        <a href='' class='selectcandidatebtn'>Select Candidate</a>
+                                        <a href='' class='selectcandidatebtn desktop-view'>Select Candidate</a>
 
                                     </p>
                                 </div>
                             </div>
                             <div class='container'>
-                            <div class=' row jobdetails mt-4'>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>Degree</h6>
-                                    <h5 class='' style='font-weight:600;font-size:18px'>B.Sc Nursing</h5>
+                            <div class=' row  mt-4'>
+                                <div class='col-xl-12'>
+                                    <div class=' jobdetails'>
+                                    <div class='col-xl-3 col-md-4 col-4'>
+                                        <h6 style='' class='candidatelabel'>Degree</h6>
+                                        <h5 class='candidatedata' >B.Sc Nursing</h5>
+                                    </div>
+                                    <div class='col-xl-3 col-md-4 col-4'>
+                                        <h6 class='candidatelabel'>Experience</h6>
+                                        <h5 class='candidatedata'>4 Years</h5>
+                                    </div>
+                                    <div class='col-xl-3 col-md-4 col-4'>
+                                        <h6 class='candidatelabel'>German Language</h6>
+                                        <h5 class='candidatedata'>B2 Completed</h5>
+                                        
+                                    </div>
+                                    </div>
                                 </div>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>Experience</h6>
-                                    <h5 style='font-weight:600;font-size:18px'>4 Years</h5>
-                                </div>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>German Language</h6>
-                                    <h5 style='font-weight:600;font-size:18px'>B2 Completed</h5>
-                                    
-                                </div>
+                                <div class='col-xl-12'>
+                                    <div class='jobdetails mt-3'>
+                                        <div class='col-xl-3 col-md-4 col-4'>
+                                        <h6 class='candidatelabel'>Specialization</h6>
+                                        <h5 class='candidatedata'>Critical Care</h5>
+                                        </div>
+                                        <div class='col-xl-3 col-md-4 col-4'>
+                                            <h6 class='candidatelabel'>Location</h6>
+                                            <h5 class='candidatedata'>Delhi</h5>
+                                        </div>
+                                        <div class='col-xl-3 col-md-4 col-4'>
+                                        <h6 class='candidatelabel'>Availability</h6>
+                                        <h5 class='candidatedata'>Aug 2025</h5>
+                                        </div>
+                                    </div>
+                                </div>                    
                             </div>
                             </div>
-                            <div class='container'>
-                            <div class=' row jobdetails mt-4'>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>Specialization</h6>
-                                    <h5 class='' style='font-weight:600;font-size:18px'>Critical Care</h5>
-                                </div>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>Location</h6>
-                                    <h5 style='font-weight:600;font-size:18px'>Delhi</h5>
-                                </div>
-                                <div class='col-md-3'>
-                                    <h6 style='font-size:18px;font-weight: 300;'>Availability</h6>
-                                    <h5 style='font-weight:600;font-size:18px'>Aug 2025</h5>
-                                    
-                                </div>
-                            </div>
-                            </div>
-        
+                             <a href='' class='selectcandidatebtn mobile-view' style='text-align:center'>Select Candidate</a>
                     </div>
                     </div>
                 </div>
