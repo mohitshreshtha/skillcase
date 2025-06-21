@@ -21,7 +21,7 @@
 <body>
      <?php  include 'header.php';?>
     <div class='container-fluid firstsection'>
-        <div class='row'>
+        <div class='row '>
             <div class='col-xl-6 col-md-12 content-container'>
                 <h4 style='font-size:24px;font-weight:500'>Create your profile & view matching jobs</h4>
                 <p style='font-size:14px;font-weight:400'>Let us help you find the right healthcare opportunity abroad — faster, smoother, and at zero recruitment cost.</p>
@@ -233,10 +233,9 @@
                         </div>
                     </div>
         </div>
+        <?php include 'footer.php'?>
     </div>
-    <div>
-        
-</div>
+    
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
  <script>

@@ -11,9 +11,13 @@
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-          <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/recruiter.css">
-
+<style>
+          
+        </style>
     </head>
     <body>
         <?php  include 'header.php';?>
@@ -22,8 +26,70 @@
         <section class='banner mt-4 mb-5'>
             <div class='container firstsection'>
                 <div class='row'>
-                    <div class='col-md-6 col-12 bannercontent'><h1>Find Top Global Talent with Ease</h1><p>Access a curated pool of skilled healthcare professionals ready to work in Germany and beyond.</p><button type="button" class='btn sectionbtn' onclick="location.href='job_search.php';">Book a Call</button></div>
-                      <div class='col-md-6'><img src='img/banner/1.PNG'></div>
+                    <div class='col-md-6 col-12 bannercontent'>
+                        <h1>Find Top Global Talent with Ease</h1><p>Access a curated pool of skilled healthcare professionals ready to work in Germany and beyond.</p><button type="button" class='btn sectionbtn' onclick="location.href='job_search.php';">Book a Call</button></div>
+                      <div class='col-md-6'>
+                      <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                            <div class=".swiper-slide-img ">
+                                <img src="" alt="">
+                                <div class="video-wrapper">
+                                <video src="video/1.mp4" poster="video/1.PNG"></video>
+                                </div>
+                                
+                            </div>
+                            <div class="swiper-slide-content">
+                                <div>
+                                <!-- <h2>louvre</h2>
+                                <p>National art museum in Paris, France. It is located on the Right Bank of the Seine in the city's 1st arrondissement (district or ward) and home to some of the most canonical works of Western art, including the Mona Lisa and the Venus de Milo.</p> -->
+                                <a class="show-more" href="https://en.wikipedia.org/wiki/Louvre" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                                    </svg></a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                            <img src="" alt="">
+                                <div class="video-wrapper">
+                                <video src="video/1.mp4" poster="video/1.PNG"></video>
+                                </div>
+                                
+                            </div>
+                            <div class="swiper-slide-content">
+                                <div>
+                                <!-- <h2>seychelles</h2>
+                                <p>Officially the Republic of Seychelles is an island country and archipelagic state consisting of 155 islands in the Indian Ocean.</p> -->
+                                <a class="show-more" href="https://en.wikipedia.org/wiki/Seychelles" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                                    </svg></a>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="swiper-slide">
+                            <div class="swiper-slide-img">
+                            <img src="" alt="">
+                                <div class="video-wrapper">
+                                <video src="video/1.mp4" poster="video/1.PNG"></video>
+                                </div>
+                                
+                            </div>
+                            <div class="swiper-slide-content">
+                                <div>
+                                <!-- <h2>london</h2>
+                                <p>The capital and largest city of England and the United Kingdom, with a population of around 8.8 million. It stands on the River Thames in south-east England at the head of a 50-mile (80 km) estuary down to the North Sea and has been a major settlement for nearly two millennia.</p> -->
+                                <a class="show-more" href="https://en.wikipedia.org/wiki/London" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                                    </svg></a>
+                                </div>
+                            </div>
+                            </div>
+                            
+                        </div>
+                        </div>
+
+                      </div>
                 </div>
             </div>
 
@@ -35,7 +101,7 @@
                         <h3 class='heading'>India’s Healthcare Talent: Ready for Global Opportunities</h3> 
                     </div>
                      
-                        <div class='col-md-12 col-xl-10' >
+                        <div class='col-md-12 col-xl-12' >
                             <div class='row countsection mt-4'>
                             <div class='col-md-3 col-11 counting' >
                                 <h1> 2 Million +</h1>
@@ -68,7 +134,7 @@
                        
                         <h1 class='heading'>Language Certified Talent</h1>
                             <p>Gain access to candidates who are certified in the German language (B2 and above), carefully curated, and pre-screened by us. Great fits for your roles and eager to join German workforce.</p>
-                            <a href="" class='alink'>Hire Now &nbsp<span style='font-size:14px'><i class="fa-solid fa-chevron-right"></span></i></a>
+                            <a href="candidate_search.php" class='alink'>Hire Now &nbsp<span style='font-size:14px'><i class="fa-solid fa-chevron-right"></span></i></a>
                     </div>
                     <div class="col-md-6 sideimages desktop-view-img" >
                         <img src="img/5.png" class='slide-right-to-left' alt="" >
@@ -88,7 +154,7 @@
                        
                          <h1 class='heading'>End - to End Hiring Support</h1>
                             <p>From language training to visa processing for candidates, we take care of everything. Just conduct interviews and select the best candidates – we handle the rest.</p>
-                            <a href="" class='alink'>Hire Now &nbsp<span style='font-size:14px'><i class="fa-solid fa-chevron-right"></span></i></a>
+                            <a href="candidate_search.php" class='alink'>Hire Now &nbsp<span style='font-size:14px'><i class="fa-solid fa-chevron-right"></span></i></a>
 
                             
                     </div>
@@ -106,7 +172,7 @@
                        
                          <h1 class='heading'>Diverse Global Talent</h1>
                             <p>Hire from India’s diverse healthcare ecosystem, bringing in professionals with a wide range of expertise and hands-on experience.</p>
-                            <a href="" class='alink'>Hire Now &nbsp<span style='font-size:14px'><i class="fa-solid fa-chevron-right"></span></i></a>
+                            <a href="candidate_search.php" class='alink'>Hire Now &nbsp<span style='font-size:14px'><i class="fa-solid fa-chevron-right"></span></i></a>
                     </div>
                     <div class="col-md-6 sideimages desktop-view-img ">
                         <img src="img/7.png" class='slide-right-to-left' alt="" >
@@ -636,20 +702,12 @@
                         </div>
                     </div>
         </section>
-        <section class='footer'>
-            <div class='container'>
-                <div class='row'>
-                    <div class='col-md-3 desc'><h2>Join us</h2><p>Accelerate your career with mentorship from the industry bests and hands-on experience of building products.</p></div>
-                    <div class='col-md-3 desc'><h2>Address</h2><p>Neelakanteshwara Layout, Sector 3, HSR Layout, Bengaluru, Karnataka 560102</p></div>
-                    <div class='col-md-3 desc'><h2>Contact</h2><p>9176162667</p><p><a data-auto-recognition="true" href="mailto:avinash@skillcase.in" class="wixui-rich-text__text">avinash@skillcase.in</a></p></div>
-                    <div class='col-md-3 desc'><h2>Contact hours</h2><p>Mon - Sat</p><p> 10:00 am – 7:00 pm</p></div>
-                </div>
-            </div>
-        </section>
+        <?php include 'footer.php'?>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-        <script>
-            <?php //include 'js/header.js';?>
+        
+    
+            <script>
 const items = document.querySelectorAll('.accordion button');
     const sideImage = document.getElementById('side-image-search');
 
@@ -715,6 +773,68 @@ $(document).ready(function() {
 //     }
 // })
 });
+
+ 
+var swiper = new Swiper(".swiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 2.5
+  },
+  keyboard: {
+    enabled: true
+  },
+  mousewheel: {
+    thresholdDelta: 70
+  },
+  spaceBetween: 30,
+  loop: false,
+  breakpoints: {
+    640: {
+      slidesPerView: 2
+    },
+    1024: {
+      slidesPerView: 3
+    }
+  }
+});
+
+swiper.slideTo(0, 0, false);
+var videoPlayButton,
+	videoWrapper = document.getElementsByClassName('video-wrapper')[0],
+    video = document.getElementsByTagName('video')[0],
+    videoMethods = {
+        renderVideoPlayButton: function() {
+            if (videoWrapper.contains(video)) {
+				this.formatVideoPlayButton()
+                video.classList.add('has-media-controls-hidden')
+                videoPlayButton = document.getElementsByClassName('video-overlay-play-button')[0]
+                videoPlayButton.addEventListener('click', this.hideVideoPlayButton)
+            }
+        },
+
+        formatVideoPlayButton: function() {
+            videoWrapper.insertAdjacentHTML('beforeend', '\
+                <svg class="video-overlay-play-button" viewBox="0 0 200 200" alt="Play video">\
+                    <circle cx="100" cy="100" r="90" fill="none" stroke-width="15" stroke="#fff"/>\
+                    <polygon points="70, 55 70, 145 145, 100" fill="#fff"/>\
+                </svg>\
+            ')
+        },
+
+        hideVideoPlayButton: function() {
+            video.play()
+            videoPlayButton.classList.add('is-hidden')
+            video.classList.remove('has-media-controls-hidden')
+            video.setAttribute('controls', 'controls')
+        }
+	}
+
+videoMethods.renderVideoPlayButton()
         </script>
     </body>
 </html>

@@ -1,0 +1,101 @@
+  <!-- <div class='col-md-6'>
+                                <div class="">
+                                    <div class='row g-0'>
+                                        <div class='col-md-5'>
+                                        <img src="img/profile/1.png" class="card-img-top profilecardimg" alt="...">
+                                        </div>
+                                        <div class='col-md-7' >
+                                                <div class="" style="display: flex; flex-direction: column; height: 100%;">
+                                                    <h5 class="card-title">Nurses (Jobs)</h5>
+                                                    <div style="flex: 1;"> <!-- Optional: To push content up if needed -->
+                                                    <!-- Your main content here if any -->
+                                                </div>
+                                                <div class='card-detail' style="margin-top: auto;">
+                                                <p class="card-text"><i class='bx bx-map'></i> Brandenburg, Germany</p>
+                                                <p class="card-text"><i class='bx bx-briefcase-alt'></i> 100+ jobs available</p>
+                                                <p class="card-text eligible">Eligibility Criteria <i class="fa-solid fa-chevron-right"></i></p>
+                                                <a href="job_search.php" class="btn applybtn">Apply Now</a>
+                                                </div>
+                                            </div>
+                                            </div>
+                                
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-md-6'>
+                            <!-- <div class="card"> -->
+                                <div class='row g-0'>
+                                    <div class='col-md-5'>
+                                    <img src="img/profile/2.png" class="card-img-top profilecardimg" alt="...">
+                                    </div>
+                                    <div class='col-md-7' >
+                                            <div class="" style="display: flex; flex-direction: column; height: 100%;">
+                                                <h5 class="card-title">Nurses (Ausbuildung / Trainees)</h5>
+                                                <div style="flex: 1;"> <!-- Optional: To push content up if needed -->
+                                                <!-- Your main content here if any -->
+                                                </div>
+                                                <div class='card-detail' style="margin-top: auto;">
+                                                <p class="card-text"><i class='bx bx-map'></i> Hamburg, Germany</p>
+                                                <p class="card-text"><i class='bx bx-briefcase-alt'></i> 50+ jobs available</p>
+                                                <p class="card-text eligible">Eligibility Criteria <i class="fa-solid fa-chevron-right"></i></p>
+                                                <a href="job_search.php" class="btn applybtn">Apply Now</a>
+                                                </div>
+                                            </div>
+                                            </div>
+                                
+                                
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                </div>   
+                        <div class='col-md-6'>
+                            <div class="card">
+                                <div class='row g-0'>
+                                    <div class='col-md-5'>
+                                    <img src="img/profile/1.png" class="card-img-top profilecardimg" alt="...">
+                                    </div>
+                                    <div class='col-md-7' >
+                                            <div class="card-body" style="display: flex; flex-direction: column; height: 100%;">
+                                                <h5 class="card-title">Nurses (Jobs)</h5>
+                                                <div style="flex: 1;"> <!-- Optional: To push content up if needed -->
+                                                <!-- Your main content here if any -->
+                                                </div>
+                                                <div class='card-detail' style="margin-top: auto;">
+                                                <p class="card-text"><i class='bx bx-map'></i> Brandenburg, Germany</p>
+                                                <p class="card-text"><i class='bx bx-briefcase-alt'></i> 100+ jobs available</p>
+                                                <p class="card-text eligible">Eligibility Criteria <i class="fa-solid fa-chevron-right"></i></p>
+                                                <a href="job_search.php" class="btn applybtn">Apply Now</a>
+                                                </div>
+                                            </div>
+                                            </div>
+                                
+                                
+                                </div>
+                            </div>
+                        </div> 
+                        <div class='col-md-6'>
+                            <div class="card">
+                                <div class='row g-0'>
+                                    <div class='col-md-5'>
+                                    <img src="img/profile/1.png" class="card-img-top profilecardimg" alt="...">
+                                    </div>
+                                    <div class='col-md-7' >
+                                            <div class="card-body" style="display: flex; flex-direction: column; height: 100%;">
+                                                <h5 class="card-title">Nurses (Jobs)</h5>
+                                                <div style="flex: 1;"> <!-- Optional: To push content up if needed -->
+                                                <!-- Your main content here if any -->
+                                                </div>
+                                                <div class='card-detail' style="margin-top: auto;">
+                                                <p class="card-text"><i class='bx bx-map'></i> Brandenburg, Germany</p>
+                                                <p class="card-text"><i class='bx bx-briefcase-alt'></i> 100+ jobs available</p>
+                                                <p class="card-text eligible">Eligibility Criteria <i class="fa-solid fa-chevron-right"></i></p>
+                                                <a href="job_search.php" class="btn applybtn">Apply Now</a>
+                                                </div>
+                                            </div>
+                                            </div>
+                                
+                                
+                                </div>
+                            </div>
+                        </div> -->
